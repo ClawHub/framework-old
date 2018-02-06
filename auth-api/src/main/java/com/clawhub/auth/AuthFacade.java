@@ -1,5 +1,7 @@
 package com.clawhub.auth;
 
+import javax.swing.*;
+
 /**
  * <Description> 认证相关接口，注册，登录，修改密码，登出 <br>
  *
@@ -9,4 +11,5 @@ package com.clawhub.auth;
  * @CreateDate 2018年02月06日<br>
  */
 public interface AuthFacade {
+    Spring test();
 }
