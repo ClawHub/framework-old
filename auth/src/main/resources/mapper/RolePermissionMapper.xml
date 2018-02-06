@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.clawhub.auth.mapper.RolePermissionMapper">
+  <resultMap id="BaseResultMap" type="com.clawhub.auth.entity.RolePermission">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="create_operator_id" jdbcType="VARCHAR" property="createOperatorId" />
+    <result column="create_operator_name" jdbcType="VARCHAR" property="createOperatorName" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="update_operator_id" jdbcType="VARCHAR" property="updateOperatorId" />
+    <result column="update_operator_name" jdbcType="VARCHAR" property="updateOperatorName" />
+    <result column="update_time" jdbcType="BIGINT" property="updateTime" />
+    <result column="is_delete" jdbcType="CHAR" property="isDelete" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="role_id" jdbcType="VARCHAR" property="roleId" />
+    <result column="permission_id" jdbcType="VARCHAR" property="permissionId" />
+  </resultMap>
+</mapper>
